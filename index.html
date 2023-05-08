@@ -9,7 +9,7 @@
     <meta content="" name="description">
 
     <!-- Favicon -->
-    <link href="fevicon.png" rel="icon">
+    <link href="img/fevicon.png" rel="icon">
 
     <!-- Google Web Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -103,8 +103,8 @@
             <div class="container py-5">
                 <div class="row justify-content-center py-5">
                     <div class="col-lg-10 pt-lg-5 mt-lg-5 text-center">
-                        <h1 class="display-3 text-white mb-3 animated slideInDown">Saves lifes With Us</h1>
-                        <p class="fs-4 text-white mb-4 animated slideInDown">"Preparing for the worst, managing the present, and adapting for the future".<br> Sankatmochak</p>
+                        <h1 class="display-3 text-white mb-3 animated slideInDown">Khoya Paaya Detection System</h1>
+                        <p class="fs-4 text-white mb-4 animated slideInDown">"Find Your lost Loves One during disaster time with <br> Sankatmochak</p>
                         
                     </div>
                 </div>
@@ -115,13 +115,10 @@
 
     <!-- Navbar & Hero End -->
     
-        <div class="upper" style="display: flex; flex-flow: column; flex-wrap: wrap; ">
+        <div class="upper" style="display: flex;  flex-wrap: wrap; flex-direction: column; flex-flow: column; ">
         
-             <p class="first-body">
-              Our system is designed to work seamlessly with emergency responders and relief organizations to ensure that we can find and reunite as many families as possible. We believe that our technology can make a significant difference in the aftermath of a disaster by providing a fast and effective means of locating missing persons.
-            </p>
-           
-            <div style="width:280px;  display: flex; justify-content: center; text-align: center; margin-left: 45%;">
+            
+            <div style="width:280px;  display: flex; justify-content: center; text-align: center; margin-left: 30%;">
             <form >
             <video onclick="snapshot(this);" width=450 height=400 id="video" controls autoplay></video>
             <br>
@@ -132,9 +129,15 @@
                <br>
                <br>
             </form>
+           
+             
             </div>
+            <p class="first-body" style="margin-top: 0; background-color: rgb(103, 223, 103,0.1);">
+                Our system is designed to work seamlessly with emergency responders and relief organizations to ensure that we can find and reunite as many families as possible. We believe that our technology can make a significant difference in the aftermath of a disaster by providing a fast and effective means of locating missing persons.
+              </p>
             </div>
             <canvas  id="myCanvas" width="400" height="350" hidden></canvas> 
+           
            <script>
               
         
@@ -200,6 +203,35 @@
         }
         
         </script>
+        <section class="section-1" style="margin-top:5% ;">
+            <div class="container text-center";">
+              <div class="row">
+                <div class="col-md-6 col-12">
+                  <div class="panel text-left">
+                    <h1>Upload Photo of lost person</h1>
+                    <div class="progress">
+                      <div class="progress-bar" role="progressbar" style="width: 100%;background-color: rgb(209, 81, 81);" aria-valuenow="100" aria-valuemin="0"
+                        aria-valuemax="100"></div>
+                    </div>
+                    <p class="pt-4">
+                        We're committed to doing everything we can to help bring them home.<br>Our platform uses state-of-the-art facial recognition algorithms to scan through vast amounts of data and match faces to the ones in our database. All you need to do is upload a photo of the missing person along with their name, and our system will get to work immediately.<br> If we find a match, we'll provide you with all the information we have on the individual and help you take the necessary steps to locate them. We understand that every case is unique, and we'll work closely with you to ensure that we're providing the support and assistance you need every step of the way.<br>We know that every minute counts when it comes to locating missing individuals, which is why we've designed our system to be both fast and accurate. Our advanced technology allows us to quickly scan through millions of images, making it more likely that we'll find a match and help bring your loved one back home.
+
+                    
+                    </p>
+
+                  </div>
+                </div>
+                <div class="col-md-6 col-12">
+                  <div class="pray" style="margin: 50% 10% 10% 20%;">
+                    
+                    <input name="Upload Saved Replay" type="file" 
+                  accept="application/pdf,application/msword,
+                  application/vnd.openxmlformats-officedocument.wordprocessingml.document"/>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
 
     
     
