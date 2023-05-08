@@ -1,0 +1,77 @@
+
+
+
+
+
+
+.upper
+{
+    background-color: white;
+       max-height: 100%;
+        margin-top: 0%;
+
+}
+.first-body
+{
+  
+    padding: 10% 10% 10% 10%;
+    max-height: 60em;
+    max-width: 60em;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    
+    line-spacing: 5px;
+
+}
+.container 
+{
+      padding: 0% 10% 10% 0%;
+     
+}
+.btn-dark
+      {
+        height: 3em;
+        width: 12em;
+   border-radius: 10px;
+   margin: 0% 10% 10% 20%;
+   background-color: #000000;
+ border-color: #000000;
+
+      }
+     .form-control 
+     {
+        width: 20em;
+        height: 3em;
+        margin: 0 10% 10% 20%;
+     } 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
